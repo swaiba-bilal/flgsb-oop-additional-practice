@@ -3,10 +3,10 @@
 ## Introduction
 
 In this challenge, you'll create a Java program that reads contact information from a text file and displays it in a formatted way. This exercise will reinforce your understanding of file I/O operations in Java, including:
-•	Opening and reading text files
-•	Using Java I/O packages effectively
-•	Handling exceptions that occur during file operations
-•	Processing and displaying file contents
+- Opening and reading text files
+- Using Java I/O packages effectively
+- Handling exceptions that occur during file operations
+- Processing and displaying file contents
 
 You'll build a simple contact book application that reads contact information from a file, parses it, and presents it in a user-friendly format.
 
