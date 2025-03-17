@@ -18,7 +18,7 @@ You'll build a simple contact book application that reads contact information fr
 4.	Handles any exceptions that might occur during file operations
 
 #### The contact file format will be simple:
-•	Each line represents one contact
-•	Names and phone numbers are separated by a colon (:)
-•	Example: John Doe:+1-555-123-4567
+- Each line represents one contact
+- Names and phone numbers are separated by a colon (:)
+- Example: John Doe:+1-555-123-4567
 
