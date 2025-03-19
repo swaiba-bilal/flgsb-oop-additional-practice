@@ -1,4 +1,6 @@
-# Java Student Class Challenge Introduction
+# Java Student Class Challenge 
+
+## Introduction
 Welcome to the Java Student Class Challenge! In this hands-on exercise, you'll create your first Java class from scratch and learn fundamental object-oriented programming concepts.
 
 ## What You'll Build
