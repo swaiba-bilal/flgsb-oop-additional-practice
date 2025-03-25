@@ -42,8 +42,6 @@ public class Employee {
     // Method to get string version
     @Override
     public String toString() {
-        return ("Name: " + name +;
-                "\nAge: " + age +
-                "\nSalary: " + salary);
+        return "Name: " + name + "\nAge: " + age + "\nSalary: " + salary;
     }
 }
