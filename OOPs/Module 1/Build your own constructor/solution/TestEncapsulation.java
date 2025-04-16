@@ -61,7 +61,9 @@ public class TestEncapsulation {
         System.out.println("Salary Comparison Result: " + result);
     }
     
-    // Method to compare salaries
+    // Step 7: Create a method that compares the salaries of two employees
+    // and returns the name of the employee with the higher salary
+    // If salaries are equal, return "Equal salaries"// Method to compare salaries
     public static String compareSalaries(Employee emp1, Employee emp2) {
         if (emp1.getSalary() > emp2.getSalary()) {
             return emp1.getName() + " has a higher salary";
