@@ -1,16 +1,25 @@
 // TestEncapsulation class to test the Employee class
 public class TestEncapsulation {
     public static void main(String[] args) {
-        // Step 1: Create an instance of the Employee class
-
-        // Step 2: Use setter methods to set values for name, age, and salary
-        // Hint: Set valid values first, then try invalid values to test validation
-
-        // Step 3: Call the method to print employee details
-
-        // Step 4: Try setting invalid values for age and salary
-        // Hint: Use negative values to test the validation logic
-
-        // Step 5: Call the method to print employee details again
+        // Step 1: Create two instances of the Employee class
+        // One using the parameterized constructor and one using default constructor with setters
+        
+        // Step 2: Print details of both employees
+        
+        // Step 3: Try setting invalid values (null name, age outside range, negative salary)
+        // and see if your validation works
+        
+        // Step 4: Give both employees a 10% raise and display their details again
+        
+        // Step 5: Clone the first employee and display the cloned employee details
+        // Hint: Use try-catch block to handle CloneNotSupportedException
+        // Employee clonedEmployee = (Employee) employee1.clone();
+        
+        // Step 6: Modify the original employee and verify that the clone remains unchanged
+        // This demonstrates that cloning creates a separate object
+        
+        // Step 7: Create a method that compares the salaries of two employees
+        // and returns the name of the employee with the higher salary
+        // If salaries are equal, return "Equal salaries"
     }
 }
