@@ -1,6 +1,6 @@
 public class TestEncapsulation {
     public static void main(String[] args) {
-        // Step 9: Create two instances of the Employee class
+        // Step 1: Create two instances of the Employee class
         // First employee using the parameterized constructor
         System.out.println("Creating first employee using constructor...");
         Employee employee1 = new Employee("John Doe", 30, 5000.0);
@@ -12,12 +12,12 @@ public class TestEncapsulation {
         employee2.setAge(25);
         employee2.setSalary(5500.0);
         
-        // Step 10: Display details of both employees
+        // Step 2: Display details of both employees
         System.out.println("\nInitial Employee Details:");
         employee1.displayDetails();
         employee2.displayDetails();
         
-        // Step 11: Try setting invalid values
+        // Step 3: Try setting invalid values
         System.out.println("Testing validation with invalid values:");
         employee1.setName("");  // Invalid: empty name
         employee1.setAge(70);   // Invalid: age outside range
@@ -27,7 +27,7 @@ public class TestEncapsulation {
         employee1.displayDetails();
         employee2.displayDetails();
         
-        // Step 12: Give both employees a 10% raise
+        // Step 4: Give both employees a 10% raise
         System.out.println("Giving both employees a 10% raise:");
         employee1.giveRaise(10);
         employee2.giveRaise(10);
@@ -36,7 +36,7 @@ public class TestEncapsulation {
         employee1.displayDetails();
         employee2.displayDetails();
         
-        // Step 13: Clone the first employee
+        // Step 5: Clone the first employee
         System.out.println("\nCloning the first employee...");
         try {
             Employee clonedEmployee = (Employee) employee1.clone();
@@ -56,7 +56,7 @@ public class TestEncapsulation {
             System.out.println("Cloning not supported: " + e.getMessage());
         }
         
-        // Step 15: Compare salaries
+        // Step 6: Compare salaries
         String result = compareSalaries(employee1, employee2);
         System.out.println("Salary Comparison Result: " + result);
     }
