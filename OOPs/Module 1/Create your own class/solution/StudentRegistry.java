@@ -1,3 +1,5 @@
+package solution;
+
 // StudentRegistry class to test the Student class
 public class StudentRegistry {
     public static void main(String[] args) {

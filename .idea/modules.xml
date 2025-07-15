@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OOPs/Module 1/Module 1.iml" filepath="$PROJECT_DIR$/OOPs/Module 1/Module 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs/Module 2/Module 2.iml" filepath="$PROJECT_DIR$/OOPs/Module 2/Module 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs/Module 3/Module 3.iml" filepath="$PROJECT_DIR$/OOPs/Module 3/Module 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs/Module 4/Module 4.iml" filepath="$PROJECT_DIR$/OOPs/Module 4/Module 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs/Module 5/Module 5.iml" filepath="$PROJECT_DIR$/OOPs/Module 5/Module 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flgsb-oop-additional-practice.iml" filepath="$PROJECT_DIR$/.idea/flgsb-oop-additional-practice.iml" />
+    </modules>
+  </component>
+</project>

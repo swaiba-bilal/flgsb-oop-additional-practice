@@ -1,3 +1,5 @@
+package solution;
+
 public class TestEncapsulation {
     public static void main(String[] args) {
         // Step 1: Create two instances of the Employee class

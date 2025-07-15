@@ -1,3 +1,5 @@
+package solution;
+
 // Employee class to demonstrate encapsulation
 public class Employee implements Cloneable {
     // Step 1: Declare private variables for name, age, and salary
