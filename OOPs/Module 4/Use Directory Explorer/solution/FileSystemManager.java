@@ -1,3 +1,5 @@
+package solution;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -190,7 +192,7 @@ public class FileSystemManager {
             String lastModified = dateFormat.format(new Date(file.lastModified()));
             
             // Display file information
-            System.out.printf(" %c   | %11d | %s | %s%n", 
+            System.out.printf(" %c   | %11d | %s | %s%n",
                     type, file.length(), lastModified, file.getName());
         }
     }
@@ -364,7 +366,7 @@ public class FileSystemManager {
                     " renamed from " + oldName + " to " + newName);
         } else {
             System.out.println("Error: Failed to rename " + 
-                    (oldFile.isDirectory() ? "directory" : "file") + ".");
+                    (oldFile.isDirectory() ? "direct ory" : "file") + ".");
         }
     }
     
@@ -404,7 +406,7 @@ public class FileSystemManager {
                 }
                 
                 // Print file information
-                System.out.println(file.isDirectory() ? "[Dir] " : "[File] " + file.getName());
+                System.out.println(file.isDirectory() ? "[Dir] "+file.getName() : "[File] " + file.getName());
                 count++;
             }
             

@@ -186,7 +186,6 @@ public class MusicShop {
                 System.out.println(tunableInstrument.tune());
                 System.out.println(tunableInstrument.adjustPitch(true));
             }
-            
             // Check if this instrument is Maintainable
             if (instrument instanceof Maintainable) {
                 Maintainable maintainableInstrument = (Maintainable) instrument;

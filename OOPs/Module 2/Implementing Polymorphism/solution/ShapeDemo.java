@@ -1,3 +1,5 @@
+package solution;
+
 import java.util.Scanner;
 
 // ShapeDemo class to demonstrate polymorphism with Shapes

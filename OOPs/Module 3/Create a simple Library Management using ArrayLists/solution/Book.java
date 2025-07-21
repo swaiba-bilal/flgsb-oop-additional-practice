@@ -1,3 +1,5 @@
+package solution;
+
 // Book class to represent a library book
 public class Book {
     // Step 1: Declare private variables for bookTitle, author, publicationYear, and isAvailable

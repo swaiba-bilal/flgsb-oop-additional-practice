@@ -1,3 +1,5 @@
+package solution;
+
 // Rectangle class - a subclass of Shape
 public class Rectangle extends Shape {
     // Step 1: Declare private variables for length and width

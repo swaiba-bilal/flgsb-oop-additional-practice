@@ -1,3 +1,5 @@
+package solution;
+
 // Triangle class - a subclass of Shape
 public class Triangle extends Shape {
     // Step 1: Declare private variables for the three sides

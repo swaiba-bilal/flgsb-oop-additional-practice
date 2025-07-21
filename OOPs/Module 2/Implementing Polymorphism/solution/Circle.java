@@ -1,3 +1,5 @@
+package solution;
+
 // Circle class - a subclass of Shape
 public class Circle extends Shape {
     // Step 1: Declare private variable for radius

@@ -1,3 +1,5 @@
+package solution;
+
 // Shape class - the superclass
 public class Shape {
     // Step 1: Declare private variables for name and color

@@ -1,4 +1,4 @@
-// Event.java
+package solution;// Event.java
 import java.time.Duration;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;

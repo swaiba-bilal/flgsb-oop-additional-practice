@@ -1,4 +1,4 @@
-// ContactReader.java
+package solution;// ContactReader.java
 // This program reads contact information from a file and displays it in a formatted way
 
 // Import necessary packages for file I/O operations and user input

@@ -1,4 +1,4 @@
-// EventScheduler.java
+package solution;// EventScheduler.java
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -112,7 +112,6 @@ public class EventScheduler {
             System.out.println("Error: " + e.getMessage());
         }
     }
-    
     // Step 11: Implement method to display all events
     private void displayAllEvents() {
         if (events.isEmpty()) {
@@ -222,7 +221,6 @@ public class EventScheduler {
         try {
             System.out.print("Enter number of days to look ahead: ");
             int days = Integer.parseInt(scanner.nextLine());
-            
             ZonedDateTime now = ZonedDateTime.now();
             ZonedDateTime endDate = now.plusDays(days);
             
